@@ -23,11 +23,24 @@
 .headingMd {
   font-size: 1.2rem;
   line-height: 1.5;
+  text-align: center;
 }
 
 .borderCircle {
   border-radius: 9999px;
 }
+
+.addBlog {
+  border: none;
+  border-radius: 9px;
+  background-color: #0070f3;
+  color: white;
+  width: 100px;
+  height: 30px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
 
 .colorInherit {
   color: inherit;
@@ -49,4 +62,5 @@
 
 .lightText {
   color: #666;
+  font-size: 15px;
 }
